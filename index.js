@@ -1,3 +1,3 @@
 const returnFirstTwoDrivers = function(driverArray) {
-  return [driverArray[0], driverArray[1]];
+  return driverArray.slice(0, 1);
 };
