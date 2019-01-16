@@ -5,3 +5,5 @@ const returnFirstTwoDrivers = function(driverArray) {
 const returnLastTwoDrivers = function(driverArray) {
   return driverArray.slice(-2);
 };
+
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
